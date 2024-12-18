@@ -1,0 +1,83 @@
+/* OrderPage.css */
+
+.user-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff6347; /* Tomato color for food theme */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .user-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-details-table th, .user-details-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-details-table th {
+    background-color: #ff6347;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .user-details-table td {
+    background-color: #fff;
+  }
+  
+  .user-details-table tr:hover {
+    background-color: #ffe6e1; /* Light tomato color */
+  }
+  
+  .user-details-table ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-details-table li {
+    padding: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .user-details-table td:last-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .user-details-container {
+      padding: 10px;
+    }
+  
+    .user-details-table th, .user-details-table td {
+      padding: 10px;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .search-bar {
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+  }
+  
